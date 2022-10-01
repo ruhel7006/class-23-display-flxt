@@ -1,0 +1,269 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+
+header {
+    background: black;
+    height: 70px;
+    display: flex;
+    justify-content: space-around;
+}
+.div-img{}
+img {
+    width: 95px;
+    padding: 6px 0;
+}
+.menu-header {
+    display: flex;
+}
+.menu-header ul {
+    display: flex;
+    list-style: none;
+}
+.menu-header ul li {
+    display: inline-block;
+}
+.menu-header ul li a {
+    color: white;
+    padding: 0 11px;
+    text-decoration: none;
+    line-height: 67px;
+    border-bottom: 1px solid #fff;
+    margin-left: 10px;
+    font-size: 19px;
+}
+
+/* <!-- service-parent star --> */
+
+.service-parent{
+    display: flex;
+    justify-content: flex-end;
+}
+.service-fast{}
+
+/* <!-- service-content star-3 iteme  --> */
+.service-fast-a {
+    display: flex;
+    margin-top: 150px;
+    width: 1026px;
+    justify-content: space-around;
+}
+
+.service-dane{
+    width: 300px;
+    height: 250px;
+    border: 1px solid rgb(78, 181, 47);
+
+}
+.dane-one{
+    background-color: red;
+    color: white;
+    padding: 10px;
+    display: inline-block;
+}
+
+
+.service-maje {
+    width: 300px;
+    height: 250px;
+    border: 1px solid rgb(78, 181, 47);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.maje-two{
+    background-color: red;
+    color: white;
+    padding: 10px;
+    display: inline-block;
+}
+
+
+.service-last {
+    width: 300px;
+    height: 250px;
+    border: 1px solid rgb(78, 181, 47);
+    display: flex;
+    align-items: end;
+    justify-content: end;
+}
+.last-three{
+    background-color: red;
+    color: white;
+    padding: 10px;
+    display: inline-block;
+}
+/* service fast star */
+
+
+
+/* end service star>>>>>>>>>>>>>>>>>>>>>> */
+.service-end{
+    background-color: #d2d2d2;
+    border-left: 1px solid red;
+    width: 300px;
+    height: 800px;
+    margin-top: 100px;
+    display: flex;
+    justify-content: flex-end;
+    
+}
+.riting-end img{
+    width: 280px;
+}
+.riting-end{
+   margin-left: 20px;
+}
+
+/* end service star<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+
+
+
+/* <!-- ritine-service star --> */
+.riting-parent {
+    display: flex;
+    margin-top: 50px;
+    width: 1048px;
+    justify-content: space-around;
+}
+.riting-one{
+    width: 250px;
+    height: 200px;
+    border: 1px solid rgb(78, 181, 47);
+}
+.riting-fast {
+    padding: 20px;
+}
+
+.riting-two{
+    width: 500px;
+    height: 200px;
+    border: 1px solid rgb(78, 181, 47);
+}
+.riting-sekend {
+    padding: 15px;
+}
+
+.riting-three{
+    width: 250px;
+    height: 200px;
+    border: 1px solid rgb(78, 181, 47);
+}
+.riting-thairt{
+    padding: 16px;
+}
+/* <!-- ritine-service end --> */
+
+/* coding color style start */
+.coding-fast{
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-between;
+}
+.coding-no1 {
+    border: 1px solid rgb(60, 216, 58);
+    width: 320px;
+    height: 200px;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: space-around;
+}
+.coding{
+    background-color: red;
+    color: white;
+    border: 1px solid rgb(67, 237, 98);
+    font-size: 19px;
+    width: 50px;
+    display: flex;
+}
+
+/* coding-no2 star */
+.coding-no2 {
+    border: 1px solid rgb(60, 216, 58);
+    width: 320px;
+    height: 200px;
+    flex-direction: row;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+.coding-no-v {
+    background-color: red;
+    color: white;
+    border: 1px solid green;
+    font-size: 19px;
+    width: 50px;
+    display: flex;
+}
+
+/* coding-no3 start */
+
+.coding-no3 {
+    border: 1px solid rgb(60, 216, 58);
+    width: 320px;
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
+}
+.coding-no-a {
+    background-color: red;
+    color: white;
+    border: 1px solid green;
+    font-size: 19px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    align-content: flex-start;
+    width: 44px;
+    height: 30px;
+    margin-top: 5px;
+}
+.coding-no-b {
+    background-color: red;
+    color: white;
+    border: 1px solid green;
+    font-size: 19px;
+    display: flex;
+    width: 44px;
+    height: 27px;
+    align-self: center;
+}
+.coding-no-c {
+    background-color: red;
+    color: white;
+    border: 1px solid green;
+    font-size: 19px;
+    width: 44px;
+    height: 27px;
+    align-self: end;
+    margin-bottom: 5px;
+}
+/* coding color style end */
+
+/* fotter star */
+.fotter{
+    background-color: black;
+    color: white;
+    text-align: center;
+    height: 50px;
+    margin-top: 60px;
+}
+.fotter{}
+.fotter ul{
+    list-style: none;
+}
+.fotter ul li {
+    display: inline-block;
+}
+.fotter ul li a{
+    color: white;
+    padding: 0 20px;
+    border-bottom: 1px solid white;
+    text-decoration: none;
+    font-size: 22px;
+    line-height: 50px;
+}
